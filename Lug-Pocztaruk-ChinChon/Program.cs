@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BusinessLogicLayer;
+using System.Drawing.Drawing2D;
+using System.Drawing;
 
 namespace Lug_Pocztaruk_ChinChon
 {
