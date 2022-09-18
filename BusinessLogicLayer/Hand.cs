@@ -7,17 +7,20 @@ namespace BusinessLogicLayer
 {
     public class Hand
     {
-        public void Order()
+        private List<Card> content;
+
+        public List<Card> Content
+        {
+            get { return content; }
+            set { content = value; }
+        }
+
+        public void DropCard(Card card)
         {
             throw new System.NotImplementedException();
         }
 
-        public void DropCard()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void PickCard()
+        public void PickCard(Card card)
         {
             throw new System.NotImplementedException();
         }
