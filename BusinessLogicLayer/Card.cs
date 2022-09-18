@@ -15,12 +15,18 @@ namespace BusinessLogicLayer
             set { number = value; }
         }
 
-        private Suit suit;
+        private Suit.Name suit;
 
-        public Suit Suit
+        public Suit.Name Suit
         {
             get { return suit; }
             set { suit = value; }
+        }
+
+        public Card(Suit.Name suit, int number)
+        {
+            this.suit = suit;
+            this.number = number;
         }
     }
 }

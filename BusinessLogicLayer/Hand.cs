@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BusinessLogicLayer
 {
-    public class Hand
+    public class Hand : Deck
     {
         private List<Card> content;
 

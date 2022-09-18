@@ -45,7 +45,9 @@
     <Compile Include="CardSize.cs" />
     <Compile Include="CyclicList.cs" />
     <Compile Include="Deck.cs" />
+    <Compile Include="DiscartDeck.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="GameDeck.cs" />
     <Compile Include="Hand.cs" />
     <Compile Include="Match.cs" />
     <Compile Include="Player.cs" />

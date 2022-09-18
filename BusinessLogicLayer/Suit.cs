@@ -7,13 +7,14 @@ namespace BusinessLogicLayer
 {
     public class Suit
     {
-		private string name;
-
-		public string Name
-		{
-			get { return name; }
-			set { name = value; }
-		}
+        public enum Name
+        {
+            Comodin = 0,
+            Basto = 1,
+            Espada = 2,
+            Oro = 3,
+            Copa = 4,
+        }
 
 	}
 }

@@ -1,24 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using DataAccessLayer;
+﻿using System.Collections.Generic;
 
 namespace BusinessLogicLayer
 {
-    public class Deck
+    public abstract class Deck
     {
-        private List<Card> cards;
+        protected List<Card> cards = new List<Card>();
 
         public List<Card> Cards
         {
             get { return cards; }
-            set { cards = value; }
         }
 
-        public void Shuffle()
+        public void ResetDeck()
         {
-            throw new System.NotImplementedException();
+
         }
     }
 }
