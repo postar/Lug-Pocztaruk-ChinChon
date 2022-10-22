@@ -13,7 +13,7 @@ namespace DataAccessLayer
 
         public void OpenConnection ()
         {
-            conn = new SqlConnection(@"Initial Catalog = DB; Data Source = .; Integrated Security = SSPI");
+            conn = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=LUG;Integrated Security=SSPI");
             conn.Open ();
         }
 

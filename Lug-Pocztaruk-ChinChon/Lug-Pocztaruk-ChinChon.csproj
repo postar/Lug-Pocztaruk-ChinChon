@@ -77,9 +77,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ControllerLayer\BusinessEntity.csproj">
+    <ProjectReference Include="..\BusinessLogicLayer\BEL.csproj">
+      <Project>{69d445f1-9a7e-46ab-aa42-037063e03b7a}</Project>
+      <Name>BEL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ControllerLayer\BLL.csproj">
       <Project>{c565fdf4-d845-4e02-8f79-65cced843de6}</Project>
-      <Name>BusinessEntity</Name>
+      <Name>BLL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
