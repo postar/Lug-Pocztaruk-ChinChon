@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BusinessLogicLayer
+namespace BEL
 {
     public abstract class Deck
     {

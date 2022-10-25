@@ -5,7 +5,7 @@ using System.Text;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace DataAccessLayer
+namespace DAL
 {
     internal class DBAccess
     {
