@@ -1,86 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="BusinessLogicLayer.Game">
-    <Position X="0.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Game.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="BusinessLogicLayer.Player">
+  <Class Name="BEL.Player">
     <Position X="2.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BusinessLogicLayer.Suit">
-    <Position X="12" Y="0.5" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Nested Types" Collapsed="false" />
-    </Compartments>
-    <NestedTypes>
-      <Enum Name="BusinessLogicLayer.Suit.Name">
-        <TypeIdentifier>
-          <NewMemberFileName>Suit.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Suit.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="BusinessLogicLayer.Turn">
+  <Class Name="BEL.Turn">
     <Position X="0.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Turn.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BusinessLogicLayer.Match">
+  <Class Name="BEL.Match">
     <Position X="0.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
       <FileName>Match.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BusinessLogicLayer.Hand">
+  <Class Name="BEL.Hand">
     <Position X="4.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAACgAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Hand.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BusinessLogicLayer.Card">
-    <Position X="8.75" Y="0.5" Width="1.5" />
+  <Class Name="BEL.Card">
+    <Position X="10" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Card.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BusinessLogicLayer.CyclicList&lt;GenericType&gt;">
-    <Position X="12" Y="3.5" Width="1.5" />
+  <Class Name="BEL.CyclicList&lt;GenericType&gt;">
+    <Position X="10" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgACAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CyclicList.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BusinessLogicLayer.GameDeck">
+  <Class Name="BEL.GameDeck">
     <Position X="7.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
       <FileName>GameDeck.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BusinessLogicLayer.DiscartDeck">
-    <Position X="4.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DiscartDeck.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="BusinessLogicLayer.Deck">
+  <Class Name="BEL.Deck">
     <Position X="6.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAEAAA=</HashCode>
